@@ -5,56 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="../CSS/style.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    
     <title>Vincenzo Mancuso | My Portfolio</title>
 </head>
 <body>
 
     <header>
-        <nav id="nav-full">
-            <ul class="nav-ul">
-                <li><a class="nav-link" href="index.html">Home</a></li>
-                <li><a class="nav-link" href="#about">About</a></li>
-                <li><a class="nav-link" href="#services">Services</a></li>
-                <li><a class="nav-link" href="#projects">Projects</a></li>
-                <li><a class="nav-link" href="#experience">Experience</a></li>
-                <li><a class="nav-link" href="#contact">Contact</a></li>
+        <nav class="nav-full">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         
-        <!-- <div id="menu-toggler" class="menu-toggler">
+      <div id="menu-toggler" class="menu-toggler">
             <div class="bar half start"></div>
             <div class="bar"></div>
             <div class="bar half end"></div>
         </div>
- -->
-        <!-- <nav id="top-nav" class="top-nav">
+ 
+        <nav id="top-nav" class="top-nav">
             <ul class="nav-list">
-                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html" id="nav-link" class="nav-link">Home</a></li>
             </ul>
             <ul class="nav-list">
-                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#about" id="nav-link" class="nav-link">About</a></li>
             </ul>
             <ul class="nav-list">
-                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#services" id="nav-link" class="nav-link">Services</a></li>
             </ul>
             <ul class="nav-list">
-                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#projects" id="nav-link" class="nav-link">Projects</a></li>
             </ul>
             <ul class="nav-list">
-                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#experience" id="nav-link" class="nav-link">Experience</a></li>
             </ul>
-             <ul class="nav-list">
+            <!-- <ul class="nav-list">
                 <li><a href="#skills" class="nav-link">Skills</a></li>
-            </ul> 
+            </ul>  -->
             <ul class="nav-list">
-                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#contact" id="nav-link" class="nav-link">Contact</a></li>
             </ul>
-        </nav> -->
+        </nav> 
+ 
 
-
-        <div class="landing-text">
+        <div id="landing-text" class="landing-text">
             <h1>Vincenzo Mancuso</h1>
             <h6>Web Developer | UI/UX Design </h6>
         </div>
@@ -62,7 +62,7 @@
 
     <section class="about" id="about">
         <div class="container">
-            <div class="profile-img">
+            <div class="profile-img" >
                 <img class="profile-img" src="Public/Images/profile.jpeg" alt="Profile">
             </div>
 
@@ -242,13 +242,12 @@
 
     <footer class="copyright">
         <div class="up" id="up">
-            <i class="fas fa-chevron-up"></i>
-            <p>&copy; 2019 | Vincenzo Mancuso</p>
+            <a href="#landing-text"><i class="fas fa-chevron-up"></i></a>   
         </div>
+        <p>&copy; 2019 | Vincenzo Mancuso</p>
     </footer>
 <script src="JS/script.js"></script>
 <script src="https://kit.fontawesome.com/bf58c31cb6.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
 </body>
 
